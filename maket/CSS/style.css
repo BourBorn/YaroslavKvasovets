@@ -1,0 +1,35 @@
+    * {
+        box-sizing: border-box;
+        list-style-type: none;
+    }
+    
+    .header {
+        height: 85px;
+        background-color: white
+    }
+    .container {
+        margin: 0 auto;
+        width: 1200px;
+        }
+    #logo {
+        float: left;
+    }
+    #buttons {
+        float: right;
+    }
+    li {
+        float: left;
+        padding: 0px 50px;
+    }
+
+    ul {
+        padding: 20px 200px;
+    }
+    #main {
+        height: 1080px;
+        background-color: red;
+    }
+    h1 {
+        color: white;
+        text-align: center;
+    }
