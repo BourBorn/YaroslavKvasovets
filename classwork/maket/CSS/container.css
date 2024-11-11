@@ -1,0 +1,5 @@
+.container{
+    background:
+        url(../IMG/banner.png) top right repeat-y,
+        url(../IMG/menu.png) top left repeat-y;
+}
