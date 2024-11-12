@@ -1,3 +1,4 @@
+@import "print.css";
 @import "init.css";
 @import "header.css";
 @import "menu.css";
@@ -7,3 +8,4 @@
 @import "container.css";
 @import "clearfix.css";
 @import "media800.css";
+@import "media400.css";
