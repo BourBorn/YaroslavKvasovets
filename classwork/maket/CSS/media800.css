@@ -2,7 +2,20 @@
     .menu {
         width: 50%;
     }
-    .banner{
+
+    .banner {
         width: 50%;
+    }
+
+    .clearadapt {
+        clear: both;
+    }
+
+    .content {
+        margin: 0
+    }
+
+    .menuban {
+        background-color: green;
     }
 }

@@ -1,0 +1,16 @@
+@media screen and (max-width: 400px) {
+    .menu {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .banneradapt {
+        display: block;
+        background-color: green;
+    }
+}

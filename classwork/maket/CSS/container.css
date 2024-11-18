@@ -1,5 +1,6 @@
 .container{
     background:
+        url(../IMG/menu.png) top left repeat-y,
         url(../IMG/banner.png) top right repeat-y,
-        url(../IMG/menu.png) top left repeat-y;
+        aqua;
 }

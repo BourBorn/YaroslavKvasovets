@@ -1,0 +1,18 @@
+@media print {
+    * {
+        background: none,
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .content {
+        margin: 0;
+        width: 100%;
+    }
+}
