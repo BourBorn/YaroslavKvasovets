@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            display: flex;
+        }
+        .header{
+            height: 150px;
+            justify-content: space-around;
+            align-items: center;
+            background-color: red;
+        }
+ 
+        .footer{
+            height: 150px;
+            background-color: red;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+        .sheet{
+            flex-direction: column;
+        }
+        .menu{
+            flex-basis: 250px;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap;
+            background-color: yellow;
+        }
+        .banner{
+            flex-basis: 250px;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap;
+            background-color: yellow;
+        }
+        .content{
+            height: 500px;
+            flex-grow: 2;
+            flex-shrink: 2;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            background-color: aqua;
+        }
+        .headitem{
+            width: 350px;
+            height: 120px;
+            background-color: white;
+            border: solid;
+
+        }
+        .menuitem{
+            width: 200px;
+            height: 50px;
+            margin: 20px;
+            background-color: white;
+            border: solid;
+        }
+        .banneritem{
+            width: 200px;
+            height: 400px;
+            margin: 20px;
+            background-color: white;
+            border: solid;
+        }
+        .footitemleft{
+            width: 300px;
+            height: 100px;
+
+            background-color: white;
+            border: solid;
+        }
+        .footitemright{
+            width: 300px;
+            height: 100px;
+
+            background-color: white;
+            border: solid;
+        }
+        .footitem{
+            width: 800px;
+            height: 100px;
+
+            background-color: white;
+            border: solid;
+        }
+        .contentitem1{
+            height: 150px;
+            width: 150px;
+            background-color: white;
+            border: solid;
+            align-self: flex-start;
+            margin-top: 20px;
+        }
+        .contentitem2{
+            height: 150px;
+            width: 150px;
+            background-color: white;
+            border: solid;
+            align-self: flex-start;
+            margin-top: 120px;
+        }
+        .contentitem3{
+            height: 150px;
+            width: 150px;
+            background-color: white;
+            border: solid;
+            align-self: flex-start;
+            margin-top: 220px;
+        }
+        .contentitem4{
+            height: 150px;
+            width: 150px;
+            background-color: white;
+            border: solid;
+            align-self: flex-start;
+            margin-top: 300px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="sheet">
+        <div class="header">
+            <div class="headitem">1</div>
+            <div class="headitem">1</div>
+            <div class="headitem">1</div>
+            <div class="headitem">1</div>
+        </div>
+        <div class="main">
+            <div class="menu">
+                <div class="menuitem"></div>
+                <div class="menuitem"></div>
+                <div class="menuitem"></div>
+                <div class="menuitem"></div>
+            </div>
+            <div class="content">
+                <div class="contentitem1"></div>
+                <div class="contentitem2"></div>
+                <div class="contentitem3"></div>
+                <div class="contentitem4"></div>
+            </div>
+            <div class="banner">
+                <div class="banneritem"></div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footitemleft"></div>
+            <div class="footitem"></div>
+            <div class="footitemright"></div>
+        </div>
+    </div>
+</body>
+</html>
