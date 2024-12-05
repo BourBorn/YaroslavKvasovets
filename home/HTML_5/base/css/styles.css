@@ -1,0 +1,20 @@
+.header {
+  color: blue;
+  background-color: #add8e6;
+  height: 50px;
+  padding: 10px; }
+  .header h2 {
+    color: red; }
+
+.footer {
+  color: blue;
+  background-color: #add8e6;
+  height: 50px;
+  padding: 10px; }
+
+.menu {
+  width: 165px;
+  padding: 25px;
+  background-color: #f0e68c;
+  float: left;
+  height: 100%; }
